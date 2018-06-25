@@ -1,3 +1,6 @@
+// Script written by Hannah Strong <stronghannahc@gmail.com> for James Atkins, June 2018
+// Last edited: June 24, 2018
+
 function SyncToMaster() {
   var masterID = "1N_GF4XUwcAd-vFenUZignAkcR9BOz4dTT5_OMjpe8Rk";          // Set Master SpreadSheet's ID here
   
@@ -8,8 +11,6 @@ function SyncToMaster() {
 
   
   
-  
-    
   var masterSS = SpreadsheetApp.openById(masterID);
   var masterSheet = masterSS.getSheetByName(masterSheetToSync);
   
