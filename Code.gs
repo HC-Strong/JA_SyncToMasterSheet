@@ -6,7 +6,7 @@ function SyncToMaster() {
   //var masterID = "1qzYhJjRyb9f-iLJVk3Rb6FZOhneeuIdD6lpWVPvpMaw";          // Set testing master sheet ID here and comment out this or the above
   
   var masterSheetToSync = "Sheet1";                                       // Set name of sheet/tab in master
-  var sheetToSync = "Sheet1";                                             // Set name of sheet/tab in reviewer sheet
+  var sheetToSync = "Brands to Review";                                             // Set name of sheet/tab in reviewer sheet
   
   var rangeString = "A3:D";                                               // Set A1 notation range for data as string
 
