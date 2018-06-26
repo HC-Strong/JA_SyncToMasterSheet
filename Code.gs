@@ -47,7 +47,7 @@ function SyncToMaster() {
           Logger.log("Data " + syncTime);
        }else{ // if row already synced, let the user know
          Logger.log("Already there");
-         //ui.alert(sheetData[row][brandCol-1] + ' was already reviewed on ' + Utilities.formatDate(masterSheet.getRange(masterRow+dataStartRow, revDateCol).getValue(), SpreadsheetApp.getActive().getSpreadsheetTimeZone(), 'MM/dd/yy') + ' so it has not been synced.');
+         ui.alert(sheetData[row][brandCol-1] + ' was already reviewed on ' + Utilities.formatDate(masterSheet.getRange(masterRow+dataStartRow, revDateCol).getValue(), SpreadsheetApp.getActive().getSpreadsheetTimeZone(), 'MM/dd/yy') + ' so it has not been synced.');
          sheet.getRange(Number(row)+dataStartRow, statusCol, 1, 1).setValue("Failed to Sync. Already in master");
        }
       } else {
