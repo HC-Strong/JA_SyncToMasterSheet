@@ -2,8 +2,8 @@
 // Last edited: June 25, 2018
 
 function SyncToMaster() {
-  //var masterID = "1jdAuo58m69FpKypTRg6LNTLZZ13qXxEU8va-oj998RU";          // Set Master SpreadSheet's ID here
-  var masterID = "1qzYhJjRyb9f-iLJVk3Rb6FZOhneeuIdD6lpWVPvpMaw";          // Set testing master sheet ID here and comment out this or the above
+  var masterID = "1jdAuo58m69FpKypTRg6LNTLZZ13qXxEU8va-oj998RU";          // Set Master SpreadSheet's ID here
+  //var masterID = "1qzYhJjRyb9f-iLJVk3Rb6FZOhneeuIdD6lpWVPvpMaw";          // Set testing master sheet ID here and comment out this or the above
   
   var masterSheetToSync = "Sheet1";                                       // Set name of sheet/tab in master
   var sheetToSync = "Sheet1";                                             // Set name of sheet/tab in reviewer sheet
